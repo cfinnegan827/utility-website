@@ -22,7 +22,7 @@ body {
   display: flex;
   transform-style: preserve-3d;
   transition: transform 1s;
-  height: 125%;
+  height: 100%;
 }
 
 .card {
@@ -35,7 +35,7 @@ body {
   backface-visibility: hidden;
   position: absolute;
   width: 100%;
-  height: 40%; /* Set height to 40% */
+  height: 50%; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,4 +71,21 @@ body {
 
 #next {
   right: 10px;
+}
+
+@media (max-width: 600px){
+  .carousel{
+    width: 90%;
+    height: 70%;
+  }
+
+  .card{
+    height: 80%;
+    font-size: .09rem;
+  }
+
+  .nav-button{
+    width: 15%;
+    padding: 8px;
+  }
 }
