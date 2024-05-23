@@ -75,8 +75,8 @@ body {
 
 @media (max-width: 600px){
   .carousel{
-    width: 90%;
-    height: 70%;
+    width: 75%;
+    height: 60%;
   }
 
   .card{
@@ -87,5 +87,6 @@ body {
   .nav-button{
     width: 15%;
     padding: 8px;
+    margin-top: 200px;
   }
 }
